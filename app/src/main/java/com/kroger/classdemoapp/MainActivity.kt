@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         dead= true,
         house = "white walker",
         id = 0,
-        relation = listOf()
+        relation = listOf("no know family")
     )
     private fun John() = Character(
         name = "John Snow",

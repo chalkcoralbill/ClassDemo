@@ -18,15 +18,18 @@
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_max="120dp"
+            app:layout_constraintHeight_max="120dp"
             tools:src="@drawable/baseline_10k_24"/>
 
         <TextView
             android:id="@+id/character_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="32sp"
+            android:textSize="26sp"
             app:layout_constraintStart_toEndOf="@id/character_image"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/character_age"
             tools:text="Rick"/>
         <TextView
             android:id="@+id/character_age"
@@ -43,7 +46,7 @@
             tools:text="49"
             android:textSize="26sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/character_age"
+            app:layout_constraintTop_toBottomOf="@id/character_image"
             />
         <TextView
             android:id="@+id/character_dead"

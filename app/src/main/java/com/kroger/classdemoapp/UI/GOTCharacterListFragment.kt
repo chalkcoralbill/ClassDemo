@@ -66,7 +66,7 @@ class GOTCharacterListFragment : Fragment() {
         house = "Snow, Stark and Targaryen",
         id = 1,
         relation = listOf(Eddard().name, Sansa().name, Daenerys().name),
-        description = "Alleged rightful ruler of the 7 kingdoms, slayer of a lot of zombies and people running from zombies. John was Julius Caesared by his fell night watch members, and remains dead as the TV show does not exist."
+        description = "Alleged rightful ruler of the 7 kingdoms, slayer of a lot of zombies and people running from zombies. John was Julius Caesared by his fellow night watch members, and remains dead as the TV show does not exist."
     )
 
     private fun Eddard() = com.kroger.classdemoapp.Character(
